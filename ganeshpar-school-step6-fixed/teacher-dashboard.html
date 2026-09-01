@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>શિક્ષક પોર્ટલ | ગણેશપર પ્રાથમિક શાળા</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="teacher-portal.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img src="images/logo.png" alt="ગણેશપર પ્રાથમિક શાળા લોગો">
+    <span>ગણેશપર પ્રાથમિક શાળા</span>
+  </a>
+  <div class="top-actions">
+    <span>🧑‍🏫 <b id="teacherTop">teacher01</b></span>
+    <button id="logoutBtn" type="button">લોગઆઉટ</button>
+  </div>
+</header>
+
+<main class="teacher-shell">
+  <section class="hero">
+    <div>
+      <span class="eyebrow">TEACHER PORTAL • STEP 5</span>
+      <h1>નમસ્તે, શિક્ષક! 👋</h1>
+      <p>વિદ્યાર્થીઓ, ગુણ, અભ્યાસ સામગ્રી, MCQ પ્રશ્નો અને જાહેરાતોનું સંચાલન કરો.</p>
+    </div>
+    <a class="home-btn" href="index.html">હોમ</a>
+  </section>
+
+  <nav class="tabs" aria-label="Teacher sections">
+    <button class="tab active" data-tab="overview">📊 ઓવરવ્યૂ</button>
+    <button class="tab" data-tab="students">👨‍🎓 વિદ્યાર્થીઓ</button>
+    <button class="tab" data-tab="results">📈 પરિણામ</button>
+    <button class="tab" data-tab="materials">📚 સામગ્રી</button>
+    <button class="tab" data-tab="questions">📝 પ્રશ્નો</button>
+    <button class="tab" data-tab="announcements">📢 જાહેરાતો</button>
+  </nav>
+
+  <section class="tab-panel active" id="tab-overview">
+    <div class="section-title">
+      <div><span class="eyebrow dark">OVERVIEW</span><h2>શિક્ષક ડેશબોર્ડ</h2></div>
+      <span class="storage-note">આ ડેમોનું ડેટા આ બ્રાઉઝરમાં સાચવાય છે.</span>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card"><span>👨‍🎓</span><small>કુલ વિદ્યાર્થીઓ</small><strong id="studentCount">0</strong></div>
+      <div class="stat-card"><span>📊</span><small>કુલ પરિણામો</small><strong id="resultCount">0</strong></div>
+      <div class="stat-card"><span>📚</span><small>અભ્યાસ સામગ્રી</small><strong id="materialCount">0</strong></div>
+      <div class="stat-card"><span>📝</span><small>કસ્ટમ MCQ</small><strong id="questionCount">0</strong></div>
+      <div class="stat-card"><span>📢</span><small>જાહેરાતો</small><strong id="noticeCount">0</strong></div>
+    </div>
+
+    <div class="quick-grid">
+      <button class="quick-card" data-open-tab="students"><span>👨‍🎓</span><h3>વિદ્યાર્થી ઉમેરો</h3><p>નવા વિદ્યાર્થીનું એકાઉન્ટ બનાવો.</p></button>
+      <button class="quick-card" data-open-tab="materials"><span>📚</span><h3>સામગ્રી ઉમેરો</h3><p>વિષયવાર PDF/લિંક ઉમેરો.</p></button>
+      <button class="quick-card" data-open-tab="questions"><span>📝</span><h3>MCQ બનાવો</h3><p>પોતાના પ્રશ્નો પ્રશ્નબૅંકમાં ઉમેરો.</p></button>
+      <button class="quick-card" data-open-tab="announcements"><span>📢</span><h3>જાહેરાત કરો</h3><p>વિદ્યાર્થીઓ માટે નવી સૂચના લખો.</p></button>
+    </div>
+  </section>
+
+  <section class="tab-panel" id="tab-students">
+    <div class="section-title">
+      <div><span class="eyebrow dark">STUDENTS</span><h2>વિદ્યાર્થી વ્યવસ્થાપન</h2></div>
+      <button class="secondary" id="clearStudentForm" type="button">નવું ફોર્મ</button>
+    </div>
+
+    <form id="studentForm" class="form-card">
+      <input type="hidden" id="studentEditId">
+      <div class="form-heading"><h3 id="studentFormTitle">નવો વિદ્યાર્થી ઉમેરો</h3><span>લોગિન માટે નંબર અને પાસવર્ડ જરૂરી છે.</span></div>
+      <div class="form-grid">
+        <label>વિદ્યાર્થી નંબર<input id="studentNumber" required placeholder="ઉદાહરણ: 1002"></label>
+        <label>વિદ્યાર્થીનું નામ<input id="studentName" required placeholder="વિદ્યાર્થીનું નામ"></label>
+        <label>ધોરણ<select id="studentStandard" required>
+          <option value="3">ધોરણ 3</option><option value="4">ધોરણ 4</option><option value="5">ધોરણ 5</option>
+          <option value="6">ધોરણ 6</option><option value="7">ધોરણ 7</option><option value="8">ધોરણ 8</option>
+        </select></label>
+        <label>વિભાગ<input id="studentSection" placeholder="A"></label>
+        <label>પાસવર્ડ<input id="studentPassword" type="password" required placeholder="લોગિન પાસવર્ડ"></label>
+      </div>
+      <div class="form-actions"><button class="primary" type="submit">વિદ્યાર્થી સાચવો</button><span id="studentMessage" class="form-message"></span></div>
+    </form>
+
+    <div class="table-card">
+      <div class="table-toolbar"><h3>વિદ્યાર્થી યાદી</h3><input id="studentSearch" placeholder="નામ / નંબર શોધો..."></div>
+      <div class="table-wrap"><table><thead><tr><th>નંબર</th><th>નામ</th><th>ધોરણ</th><th>વિભાગ</th><th>ક્રિયા</th></tr></thead><tbody id="studentsTable"></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="tab-panel" id="tab-results">
+    <div class="section-title">
+      <div><span class="eyebrow dark">RESULTS</span><h2>ગુણ અને પરિણામ</h2></div>
+      <span class="storage-note">ઓનલાઈન પરીક્ષા અને શિક્ષક દ્વારા દાખલ કરેલા ગુણ બંને અહીં દેખાશે.</span>
+    </div>
+
+    <form id="marksForm" class="form-card">
+      <div class="form-heading"><h3>મેન્યુઅલી ગુણ દાખલ કરો</h3><span>પરીક્ષા માટે વિદ્યાર્થીના ગુણ સાચવો.</span></div>
+      <div class="form-grid">
+        <label>વિદ્યાર્થી<select id="marksStudent" required></select></label>
+        <label>પરીક્ષાનો પ્રકાર<select id="marksExamType" required>
+          <option value="mid">મધ્યસત્ર પરીક્ષા</option>
+          <option value="final">વાર્ષિક પરીક્ષા</option>
+        </select></label>
+        <label>વિષય<select id="marksSubject" required></select></label>
+        <label>ધોરણ<input id="marksStandard" readonly></label>
+        <label>મેળવેલા ગુણ<input id="marksScore" type="number" min="0" required placeholder="ઉદાહરણ: 42"></label>
+        <label>કુલ ગુણ<input id="marksTotal" type="number" min="1" value="50" required></label>
+      </div>
+      <div class="form-actions"><button class="primary" type="submit">ગુણ સાચવો</button><a id="openMarksheetBtn" class="secondary" href="result.html">📄 પસંદ કરેલા વિદ્યાર્થીની માર્કશીટ</a><span id="marksMessage" class="form-message"></span></div>
+    </form>
+
+    <div class="table-card">
+      <div class="table-toolbar">
+        <div><h3>શિક્ષક દ્વારા દાખલ કરેલા પરીક્ષા ગુણ</h3><small class="table-note">ફક્ત મધ્યસત્ર અને વાર્ષિક પરીક્ષાના ગુણ માર્કશીટમાં ગણાશે.</small></div>
+        <div class="toolbar-group"><select id="resultFilter"><option value="all">બધા ધોરણ</option><option value="3">ધોરણ 3</option><option value="4">ધોરણ 4</option><option value="5">ધોરણ 5</option><option value="6">ધોરણ 6</option><option value="7">ધોરણ 7</option><option value="8">ધોરણ 8</option></select></div>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>વિદ્યાર્થી</th><th>ધોરણ</th><th>પરીક્ષા</th><th>વિષય</th><th>ગુણ</th><th>ટકા</th><th>તારીખ</th></tr></thead><tbody id="resultsTable"></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="tab-panel" id="tab-materials">
+    <div class="section-title">
+      <div><span class="eyebrow dark">STUDY MATERIAL</span><h2>અભ્યાસ સામગ્રી</h2></div>
+      <span class="storage-note">PDFની વેબ લિંક અથવા પ્રોજેક્ટની relative PDF path આપી શકાય છે.</span>
+    </div>
+
+    <form id="materialForm" class="form-card">
+      <div class="form-heading"><h3>નવી સામગ્રી ઉમેરો</h3><span>વિદ્યાર્થીના Textbook PDF વિભાગમાં દેખાશે.</span></div>
+      <div class="form-grid">
+        <label>સામગ્રીનું નામ<input id="materialTitle" required placeholder="ઉદાહરણ: ધોરણ 6 ગણિત પાઠ્યપુસ્તક"></label>
+        <label>ધોરણ<select id="materialStandard" required>
+          <option value="3">ધોરણ 3</option><option value="4">ધોરણ 4</option><option value="5">ધોરણ 5</option>
+          <option value="6">ધોરણ 6</option><option value="7">ધોરણ 7</option><option value="8">ધોરણ 8</option>
+        </select></label>
+        <label>વિષય<select id="materialSubject" required></select></label>
+        <label class="wide">PDF / વેબ લિંક<input id="materialUrl" required placeholder="https://... અથવા pdfs/std6-maths.pdf"></label>
+      </div>
+      <div class="form-actions"><button class="primary" type="submit">સામગ્રી ઉમેરો</button><span id="materialMessage" class="form-message"></span></div>
+    </form>
+
+    <div id="materialsList" class="item-list"></div>
+  </section>
+
+  <section class="tab-panel" id="tab-questions">
+    <div class="section-title">
+      <div><span class="eyebrow dark">QUESTION BANK</span><h2>MCQ પ્રશ્નો બનાવો</h2></div>
+      <span class="storage-note">આ પ્રશ્નો વિદ્યાર્થીની ઓનલાઈન પરીક્ષામાં ઉપયોગ થઈ શકે છે.</span>
+    </div>
+
+    <form id="questionForm" class="form-card">
+      <div class="form-heading"><h3>નવો MCQ ઉમેરો</h3><span>4 વિકલ્પમાંથી એક સાચો જવાબ પસંદ કરો.</span></div>
+      <div class="form-grid">
+        <label>ધોરણ<select id="questionStandard" required>
+          <option value="3">ધોરણ 3</option><option value="4">ધોરણ 4</option><option value="5">ધોરણ 5</option>
+          <option value="6" selected>ધોરણ 6</option><option value="7">ધોરણ 7</option><option value="8">ધોરણ 8</option>
+        </select></label>
+        <label>વિષય<select id="questionSubject" required></select></label>
+        <label class="wide">પ્રશ્ન<input id="questionText" required placeholder="MCQ પ્રશ્ન લખો"></label>
+        <label>વિકલ્પ A<input id="optionA" required></label>
+        <label>વિકલ્પ B<input id="optionB" required></label>
+        <label>વિકલ્પ C<input id="optionC" required></label>
+        <label>વિકલ્પ D<input id="optionD" required></label>
+        <label>સાચો જવાબ<select id="correctAnswer" required>
+          <option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option>
+        </select></label>
+      </div>
+      <div class="form-actions"><button class="primary" type="submit">પ્રશ્ન સાચવો</button><span id="questionMessage" class="form-message"></span></div>
+    </form>
+
+    <div class="table-card">
+      <div class="table-toolbar"><h3>શિક્ષક દ્વારા ઉમેરાયેલા પ્રશ્નો</h3><select id="questionFilter"><option value="all">બધા ધોરણ</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option></select></div>
+      <div class="table-wrap"><table><thead><tr><th>ધોરણ</th><th>વિષય</th><th>પ્રશ્ન</th><th>જવાબ</th><th>ક્રિયા</th></tr></thead><tbody id="questionsTable"></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="tab-panel" id="tab-announcements">
+    <div class="section-title">
+      <div><span class="eyebrow dark">ANNOUNCEMENTS</span><h2>શાળાની જાહેરાતો</h2></div>
+      <span class="storage-note">વિદ્યાર્થી પોર્ટલના જાહેરાત વિભાગમાં દેખાશે.</span>
+    </div>
+
+    <form id="announcementForm" class="form-card">
+      <div class="form-heading"><h3>નવી જાહેરાત</h3><span>ટૂંકી અને સ્પષ્ટ સૂચના લખો.</span></div>
+      <div class="form-grid">
+        <label class="wide">શીર્ષક<input id="announcementTitle" required placeholder="ઉદાહરણ: રજા અંગે સૂચના"></label>
+        <label class="wide">સંદેશ<textarea id="announcementBody" rows="4" required placeholder="વિદ્યાર્થીઓ માટેની સૂચના..."></textarea></label>
+      </div>
+      <div class="form-actions"><button class="primary" type="submit">જાહેરાત પ્રકાશિત કરો</button><span id="announcementMessage" class="form-message"></span></div>
+    </form>
+
+    <div id="announcementsList" class="item-list"></div>
+  </section>
+</main>
+
+<footer>© 2026 ગણેશપર પ્રાથમિક શાળા • Teacher Portal Step 5</footer>
+<script src="real-students.js"></script>
+<script src="teacher-portal.js"></script>
+</body>
+</html>

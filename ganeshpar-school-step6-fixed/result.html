@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>વિદ્યાર્થી માર્કશીટ | ગણેશપર પ્રાથમિક શાળા</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="result.css">
+</head>
+<body>
+<header class="topbar no-print">
+  <a class="brand" href="teacher-dashboard.html">
+    <img src="images/logo.png" alt="ગણેશપર પ્રાથમિક શાળા લોગો">
+    <span>ગણેશપર પ્રાથમિક શાળા</span>
+  </a>
+  <div class="top-actions">
+    <span>🧑‍🏫 <b id="teacherTop">teacher01</b></span>
+    <a href="teacher-dashboard.html">શિક્ષક પોર્ટલ</a>
+    <button id="logoutBtn" type="button">લોગઆઉટ</button>
+  </div>
+</header>
+
+<main class="result-shell">
+  <div class="page-actions no-print">
+    <a class="back-btn" href="teacher-dashboard.html">← શિક્ષક પોર્ટલ પર પાછા</a>
+    <div class="page-actions-right">
+      <label class="student-picker-label">વિદ્યાર્થી પસંદ કરો
+        <select id="marksheetStudent"></select>
+      </label>
+      <button id="printBtn" class="print-btn" type="button">🖨️ માર્કશીટ પ્રિન્ટ કરો</button>
+    </div>
+  </div>
+
+  <section class="marksheet" id="marksheet">
+    <div class="school-header">
+      <img src="images/logo.png" alt="શાળાનો લોગો" class="school-logo">
+      <div class="school-title">
+        <div class="small-title">મધ્યસત્ર અને વાર્ષિક પરીક્ષા પરિણામ પત્રક</div>
+        <h1>ગણેશપર પ્રાથમિક શાળા</h1>
+        <p>ગણેશપર, TA-Tankara, DIST-Morbi</p>
+      </div>
+      <div class="certificate-label">વિદ્યાર્થી<br>માર્કશીટ</div>
+    </div>
+
+    <div class="student-info">
+      <div><span>વિદ્યાર્થીનું નામ</span><strong id="studentName">-</strong></div>
+      <div><span>વિદ્યાર્થી નંબર</span><strong id="studentNumber">-</strong></div>
+      <div><span>ધોરણ</span><strong id="studentStandard">-</strong></div>
+      <div><span>વિભાગ</span><strong id="studentSection">-</strong></div>
+    </div>
+
+    <div class="summary-grid">
+      <div class="summary-card"><span>મધ્યસત્ર કુલ ગુણ</span><strong id="midSummary">0 / 0</strong></div>
+      <div class="summary-card"><span>વાર્ષિક કુલ ગુણ</span><strong id="finalSummary">0 / 0</strong></div>
+      <div class="summary-card"><span>કુલ મેળવેલા ગુણ</span><strong id="grandSummary">0 / 0</strong></div>
+      <div class="summary-card highlight"><span>કુલ ટકા</span><strong id="percentage">0%</strong></div>
+    </div>
+
+    <section class="marks-section">
+      <div class="section-heading">
+        <div><span class="eyebrow">ACADEMIC MARKS</span><h2>વિષયવાર માર્કશીટ</h2></div>
+      </div>
+      <div class="table-wrap">
+        <table class="marksheet-table">
+          <thead>
+            <tr>
+              <th rowspan="2">વિષય</th>
+              <th colspan="2">મધ્યસત્ર પરીક્ષા</th>
+              <th colspan="2">વાર્ષિક પરીક્ષા</th>
+              <th colspan="2">કુલ</th>
+            </tr>
+            <tr>
+              <th>મેળવેલા</th><th>કુલ</th>
+              <th>મેળવેલા</th><th>કુલ</th>
+              <th>મેળવેલા</th><th>કુલ</th>
+            </tr>
+          </thead>
+          <tbody id="subjectTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="marks-section">
+      <div class="section-heading">
+        <div><span class="eyebrow">EXAM DETAILS</span><h2>પરીક્ષા ગુણની વિગત</h2></div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>પરીક્ષા</th><th>વિષય</th><th>મેળવેલા ગુણ</th><th>કુલ ગુણ</th><th>ટકા</th><th>તારીખ</th></tr></thead>
+          <tbody id="historyTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div id="noResults" class="empty-result">
+      <div>📊</div>
+      <h3>આ વિદ્યાર્થીના ગુણ હજી દાખલ થયા નથી</h3>
+      <p>શિક્ષક પોર્ટલના “ગુણ અને પરિણામ” વિભાગમાં મધ્યસત્ર અથવા વાર્ષિક પરીક્ષાના ગુણ દાખલ કરો.</p>
+    </div>
+
+    <div class="marksheet-footer">
+      <div><span>શાળાનો ઈ-મેઈલ</span><strong>info.ganeshparprimaryschool@gmail.com</strong></div>
+      <div><span>આચાર્ય</span><strong>Kamalesh bhai</strong></div>
+    </div>
+  </section>
+</main>
+<script src="result.js"></script>
+</body>
+</html>

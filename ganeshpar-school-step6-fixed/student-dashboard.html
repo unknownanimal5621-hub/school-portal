@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>વિદ્યાર્થી પોર્ટલ | ગણેશપર પ્રાથમિક શાળા</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="student-portal.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <img src="images/logo.png" alt="ગણેશપર પ્રાથમિક શાળા લોગો">
+    <span>ગણેશપર પ્રાથમિક શાળા</span>
+  </a>
+  <div class="top-actions">
+    <span>🎓 <b id="studentTop">વિદ્યાર્થી</b></span>
+    <button id="logoutBtn" type="button">લોગઆઉટ</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <span class="eyebrow">STUDENT PORTAL</span>
+      <h1 id="studentGreeting">નમસ્તે! 👋</h1>
+      <p>તમારા ધોરણ પ્રમાણે અભ્યાસની માહિતી અહીંથી મેળવો.</p>
+    </div>
+    <div class="hero-badge">ગણેશપર પ્રાથમિક શાળા</div>
+  </section>
+
+  <section class="class-selector card">
+    <div>
+      <h2>તમારું ધોરણ પસંદ કરો</h2>
+      <p>ધોરણ બદલવાથી વિષયો, ટાઈમટેબલ અને પુસ્તકોની યાદી બદલાશે.</p>
+    </div>
+    <select id="standardSelect" aria-label="ધોરણ પસંદ કરો">
+      <option value="3">ધોરણ 3</option>
+      <option value="4">ધોરણ 4</option>
+      <option value="5">ધોરણ 5</option>
+      <option value="6">ધોરણ 6</option>
+      <option value="7">ધોરણ 7</option>
+      <option value="8">ધોરણ 8</option>
+    </select>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">ACADEMICS</span>
+        <h2>મારા અભ્યાસના વિભાગો</h2>
+      </div>
+    </div>
+
+    <div class="feature-grid">
+      <button class="feature-card" data-section="subjects">
+        <span class="feature-icon">📚</span>
+        <h3>વિષયો</h3>
+        <p>તમારા ધોરણના તમામ વિષયો જુઓ.</p>
+        <b>જુઓ →</b>
+      </button>
+      <button class="feature-card" data-section="timetable">
+        <span class="feature-icon">🕐</span>
+        <h3>ટાઈમટેબલ</h3>
+        <p>સોમવારથી શનિવારનું સમયપત્રક.</p>
+        <b>જુઓ →</b>
+      </button>
+      <button class="feature-card" data-section="books">
+        <span class="feature-icon">📖</span>
+        <h3>ટેક્સ્ટબુક PDF</h3>
+        <p>વિષયવાર ડિજિટલ પુસ્તકો માટેનું સ્થાન.</p>
+        <b>જુઓ →</b>
+      </button>
+      <a class="feature-card" href="exam.html" style="text-decoration:none;color:inherit;">
+        <span class="feature-icon">📝</span>
+        <h3>ઓનલાઈન પરીક્ષા</h3>
+        <p>MCQ પરીક્ષા માટેનું પોર્ટલ.</p>
+        <b>Step 4 →</b>
+      </a>
+      <a class="feature-card" href="result-view.html" data-section="result">
+        <span class="feature-icon">📊</span>
+        <h3>માર્ક્સ / પરિણામ</h3>
+        <p>મધ્યસત્ર અને વાર્ષિક માર્કશીટ શિક્ષક પોર્ટલથી તૈયાર થાય છે.</p>
+        <b>માહિતી →</b>
+      </a>
+      <button class="feature-card" data-section="notice">
+        <span class="feature-icon">📢</span>
+        <h3>જાહેરાતો</h3>
+        <p>શાળાની મહત્વની સૂચનાઓ.</p>
+        <b>જુઓ →</b>
+      </button>
+    </div>
+  </section>
+
+  <section id="contentPanel" class="content-panel card">
+    <div class="panel-heading">
+      <div>
+        <span class="eyebrow">SELECTED SECTION</span>
+        <h2 id="panelTitle">વિષયો</h2>
+      </div>
+      <button id="closePanel" type="button" class="close-btn">×</button>
+    </div>
+    <div id="panelContent"></div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 ગણેશપર પ્રાથમિક શાળા • વિદ્યાર્થી પોર્ટલ</p>
+</footer>
+
+<script src="student-portal.js"></script>
+</body>
+</html>

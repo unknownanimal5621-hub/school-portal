@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>લોગિન | ગણેશપર પ્રાથમિક શાળા</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <main class="login-page">
+    <a class="back-home" href="index.html">← હોમ પર પાછા જાઓ</a>
+
+    <section class="login-shell">
+      <div class="login-visual">
+        <img src="images/logo.png" alt="ગણેશપર પ્રાથમિક શાળા લોગો" class="logo">
+        <div class="visual-copy">
+          <span class="eyebrow">DIGITAL SCHOOL PORTAL</span>
+          <h1>ગણેશપર પ્રાથમિક શાળા</h1>
+          <p>વિદ્યાર્થી અને શિક્ષક માટેનું ડિજિટલ પોર્ટલ</p>
+        </div>
+        <div class="visual-points">
+          <span>✓ વિદ્યાર્થી માહિતી</span>
+          <span>✓ અભ્યાસ સામગ્રી</span>
+          <span>✓ પરીક્ષા અને પરિણામ</span>
+        </div>
+      </div>
+
+      <div class="login-panel">
+        <div class="panel-top">
+          <div>
+            <div class="section-label">સ્વાગત છે</div>
+            <h2>તમારા એકાઉન્ટમાં લોગિન કરો</h2>
+          </div>
+          <button id="languageBtn" class="language-btn">English</button>
+        </div>
+
+        <div class="role-grid" aria-label="Role selection">
+          <button class="role-card active" data-role="student" type="button">
+            <span>🎓</span>
+            <strong data-gu="વિદ્યાર્થી" data-en="Student">વિદ્યાર્થી</strong>
+            <small data-gu="Student Portal" data-en="Student Portal">Student Portal</small>
+          </button>
+          <button class="role-card" data-role="teacher" type="button">
+            <span>🧑‍🏫</span>
+            <strong data-gu="શિક્ષક" data-en="Teacher">શિક્ષક</strong>
+            <small data-gu="Teacher Portal" data-en="Teacher Portal">Teacher Portal</small>
+          </button>
+        </div>
+
+        <form id="loginForm" novalidate>
+          <input type="hidden" id="role" value="student">
+
+          <label for="username" id="usernameLabel"
+                 data-gu="વિદ્યાર્થી યુઝરનેમ" data-en="Student Username">વિદ્યાર્થી યુઝરનેમ</label>
+          <input id="username" type="text" autocomplete="username"
+                 placeholder="ઉદાહરણ: 1001" data-gu-placeholder="ઉદાહરણ: 1001"
+                 data-en-placeholder="Example: 1001">
+
+          <label for="password" data-gu="પાસવર્ડ" data-en="Password">પાસવર્ડ</label>
+          <div class="password-wrap">
+            <input id="password" type="password" autocomplete="current-password"
+                   placeholder="તમારો પાસવર્ડ" data-gu-placeholder="તમારો પાસવર્ડ"
+                   data-en-placeholder="Your password">
+            <button type="button" id="showPassword">👁</button>
+          </div>
+
+          <div id="message" class="message" role="alert"></div>
+
+          <button class="login-btn" type="submit">
+            <span data-gu="લોગિન કરો →" data-en="Login →">લોગિન કરો →</span>
+          </button>
+        </form>
+
+        <div class="demo-box">
+          <strong data-gu="ડેમો લોગિન" data-en="Demo Login">ડેમો લોગિન</strong>
+          <p id="demoText">ઉદાહરણ: <b>STU7001</b> / <b>Gnp@0001X</b></p>
+          <small data-gu="આ માત્ર પ્રોજેક્ટ ડેમો માટે છે. વાસ્તવિક વેબસાઇટમાં backend/database જોડવાનું રહેશે."
+                 data-en="This is only for the project demo. A real website should use a backend/database.">
+            આ માત્ર પ્રોજેક્ટ ડેમો માટે છે. વાસ્તવિક વેબસાઇટમાં backend/database જોડવાનું રહેશે.
+          </small>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>

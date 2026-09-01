@@ -1,0 +1,1772 @@
+[
+  {
+    "studentNumber": "1001",
+    "name": "NAINABEN",
+    "surname": "PASAYA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7001",
+    "password": "Gnp@0001X"
+  },
+  {
+    "studentNumber": "1002",
+    "name": "JAYDIP",
+    "surname": "PASAYA",
+    "fatherName": "SANKARBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8002",
+    "password": "Gnp@0002X"
+  },
+  {
+    "studentNumber": "1003",
+    "name": "ARVIND",
+    "surname": "CHADAMIYA",
+    "fatherName": "VINODBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8003",
+    "password": "Gnp@0003X"
+  },
+  {
+    "studentNumber": "1004",
+    "name": "USHA",
+    "surname": "DABHI",
+    "fatherName": "MANSUKHABHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8004",
+    "password": "Gnp@0004X"
+  },
+  {
+    "studentNumber": "1005",
+    "name": "DHRUVI",
+    "surname": "GAMARA",
+    "fatherName": "VASHARAMBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8005",
+    "password": "Gnp@0005X"
+  },
+  {
+    "studentNumber": "1006",
+    "name": "AARTI",
+    "surname": "DABHAI",
+    "fatherName": "RAMESHBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8006",
+    "password": "Gnp@0006X"
+  },
+  {
+    "studentNumber": "1007",
+    "name": "PAYAL",
+    "surname": "KISHORI",
+    "fatherName": "HARESHBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8007",
+    "password": "Gnp@0007X"
+  },
+  {
+    "studentNumber": "1008",
+    "name": "KIRIT",
+    "surname": "SANGOL",
+    "fatherName": "KAJIBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8008",
+    "password": "Gnp@0008X"
+  },
+  {
+    "studentNumber": "1009",
+    "name": "HETAL",
+    "surname": "GAMARA",
+    "fatherName": "BHARATBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8009",
+    "password": "Gnp@0009X"
+  },
+  {
+    "studentNumber": "1010",
+    "name": "JAYSREE",
+    "surname": "NAYAKA",
+    "fatherName": "POPATBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8010",
+    "password": "Gnp@0010X"
+  },
+  {
+    "studentNumber": "1011",
+    "name": "KUTARIYA",
+    "surname": "NAYAKA",
+    "fatherName": "SANKARBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8011",
+    "password": "Gnp@0011X"
+  },
+  {
+    "studentNumber": "1012",
+    "name": "YANSHI",
+    "surname": "BHAGIYA",
+    "fatherName": "AVCHARBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7012",
+    "password": "Gnp@0012X"
+  },
+  {
+    "studentNumber": "1013",
+    "name": "KARAN",
+    "surname": "GAMARA",
+    "fatherName": "GOVINDBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7013",
+    "password": "Gnp@0013X"
+  },
+  {
+    "studentNumber": "1014",
+    "name": "NAVGHAN",
+    "surname": "TOYATA",
+    "fatherName": "HIRABHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7014",
+    "password": "Gnp@0014X"
+  },
+  {
+    "studentNumber": "1015",
+    "name": "NAVGHAN",
+    "surname": "DABHI",
+    "fatherName": "BHARATBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7015",
+    "password": "Gnp@0015X"
+  },
+  {
+    "studentNumber": "1016",
+    "name": "BALU",
+    "surname": "DAVAR",
+    "fatherName": "RAJESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7016",
+    "password": "Gnp@0016X"
+  },
+  {
+    "studentNumber": "1017",
+    "name": "KINJAL",
+    "surname": "NAYAKA",
+    "fatherName": "CHIMABHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7017",
+    "password": "Gnp@0017X"
+  },
+  {
+    "studentNumber": "1018",
+    "name": "VIKRAM",
+    "surname": "DAVAR",
+    "fatherName": "RAJESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7018",
+    "password": "Gnp@0018X"
+  },
+  {
+    "studentNumber": "1019",
+    "name": "DEVRAJ",
+    "surname": "GAMAR",
+    "fatherName": "KAMLESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7019",
+    "password": "Gnp@0019X"
+  },
+  {
+    "studentNumber": "1020",
+    "name": "SHIVRAJ",
+    "surname": "GAMAR",
+    "fatherName": "KAMLESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7020",
+    "password": "Gnp@0020X"
+  },
+  {
+    "studentNumber": "1021",
+    "name": "AJAY",
+    "surname": "KISHORI",
+    "fatherName": "MAHESHBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7021",
+    "password": "Gnp@0021X"
+  },
+  {
+    "studentNumber": "1022",
+    "name": "VIGNESHA",
+    "surname": "BHAGIYA",
+    "fatherName": "HARESHBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6022",
+    "password": "Gnp@0022X"
+  },
+  {
+    "studentNumber": "1023",
+    "name": "ENJAL",
+    "surname": "GAMARA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6023",
+    "password": "Gnp@0023X"
+  },
+  {
+    "studentNumber": "1024",
+    "name": "POONAM",
+    "surname": "GAMARA",
+    "fatherName": "BHARATBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6024",
+    "password": "Gnp@0024X"
+  },
+  {
+    "studentNumber": "1025",
+    "name": "LALO",
+    "surname": "GAMARA",
+    "fatherName": "KHENGARBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6025",
+    "password": "Gnp@0025X"
+  },
+  {
+    "studentNumber": "1026",
+    "name": "KRISHNA",
+    "surname": "GAMARA",
+    "fatherName": "PANCHABHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6026",
+    "password": "Gnp@0026X"
+  },
+  {
+    "studentNumber": "1027",
+    "name": "RADHIKA",
+    "surname": "GAMARA",
+    "fatherName": "SATISHBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6027",
+    "password": "Gnp@0027X"
+  },
+  {
+    "studentNumber": "1028",
+    "name": "MANAV",
+    "surname": "GAMARA",
+    "fatherName": "LAKHMANBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6028",
+    "password": "Gnp@0028X"
+  },
+  {
+    "studentNumber": "1029",
+    "name": "SHYAM",
+    "surname": "ZAPADA",
+    "fatherName": "RATILAL",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6029",
+    "password": "Gnp@0029X"
+  },
+  {
+    "studentNumber": "1030",
+    "name": "DHRUV",
+    "surname": "GAMARA",
+    "fatherName": "DHANJIBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6030",
+    "password": "Gnp@0030X"
+  },
+  {
+    "studentNumber": "1031",
+    "name": "POOJA",
+    "surname": "DABHI",
+    "fatherName": "RAMJIBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6031",
+    "password": "Gnp@0031X"
+  },
+  {
+    "studentNumber": "1032",
+    "name": "MANAV",
+    "surname": "GAMARA",
+    "fatherName": "SANJAYBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6032",
+    "password": "Gnp@0032X"
+  },
+  {
+    "studentNumber": "1033",
+    "name": "HASMITA",
+    "surname": "VAKHLA",
+    "fatherName": "DINESHBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6033",
+    "password": "Gnp@0033X"
+  },
+  {
+    "studentNumber": "1034",
+    "name": "MANGALSINH",
+    "surname": "NAYKA",
+    "fatherName": "KALUBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6034",
+    "password": "Gnp@0034X"
+  },
+  {
+    "studentNumber": "1035",
+    "name": "RAJAL",
+    "surname": "CHHIPARIYA",
+    "fatherName": "JITENDRABHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6035",
+    "password": "Gnp@0035X"
+  },
+  {
+    "studentNumber": "1036",
+    "name": "PAYAL",
+    "surname": "NAYAKA",
+    "fatherName": "KARUBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7036",
+    "password": "Gnp@0036X"
+  },
+  {
+    "studentNumber": "1037",
+    "name": "ARJUN",
+    "surname": "CHHIPARIYA",
+    "fatherName": "ASHOKBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5037",
+    "password": "Gnp@0037X"
+  },
+  {
+    "studentNumber": "1038",
+    "name": "SHAURYA",
+    "surname": "VANAKAR",
+    "fatherName": "HITESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5038",
+    "password": "Gnp@0038X"
+  },
+  {
+    "studentNumber": "1039",
+    "name": "NAX",
+    "surname": "BHAGIYA",
+    "fatherName": "NARBHERAMBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5039",
+    "password": "Gnp@0039X"
+  },
+  {
+    "studentNumber": "1040",
+    "name": "JAYDEEP",
+    "surname": "DABHI",
+    "fatherName": "MANSUKHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5040",
+    "password": "Gnp@0040X"
+  },
+  {
+    "studentNumber": "1041",
+    "name": "PRATIK",
+    "surname": "BHAGIYA",
+    "fatherName": "AVACHARBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5041",
+    "password": "Gnp@0041X"
+  },
+  {
+    "studentNumber": "1042",
+    "name": "DOLI",
+    "surname": "BHAGIYA",
+    "fatherName": "ASHVINBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5042",
+    "password": "Gnp@0042X"
+  },
+  {
+    "studentNumber": "1043",
+    "name": "RAHUL",
+    "surname": "HATHILA",
+    "fatherName": "VINUBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5043",
+    "password": "Gnp@0043X"
+  },
+  {
+    "studentNumber": "1044",
+    "name": "NISHA",
+    "surname": "GAMARA",
+    "fatherName": "VASHRAMBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5044",
+    "password": "Gnp@0044X"
+  },
+  {
+    "studentNumber": "1045",
+    "name": "SHANIYA",
+    "surname": "VANK",
+    "fatherName": "VIPULBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5045",
+    "password": "Gnp@0045X"
+  },
+  {
+    "studentNumber": "1046",
+    "name": "SHRDHDHA",
+    "surname": "CHHIPARIYA",
+    "fatherName": "BHUPATBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5046",
+    "password": "Gnp@0046X"
+  },
+  {
+    "studentNumber": "1047",
+    "name": "BHARTI",
+    "surname": "DABHI",
+    "fatherName": "RAMESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5047",
+    "password": "Gnp@0047X"
+  },
+  {
+    "studentNumber": "1048",
+    "name": "ARVIN",
+    "surname": "JAMRA",
+    "fatherName": "VIJUBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5048",
+    "password": "Gnp@0048X"
+  },
+  {
+    "studentNumber": "1049",
+    "name": "KRUPANSH",
+    "surname": "BHAGIYA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5049",
+    "password": "Gnp@0049X"
+  },
+  {
+    "studentNumber": "1050",
+    "name": "YUVRAJ",
+    "surname": "GAMAR",
+    "fatherName": "RAMESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5050",
+    "password": "Gnp@0050X"
+  },
+  {
+    "studentNumber": "1051",
+    "name": "MANYA",
+    "surname": "GAMARA",
+    "fatherName": "KHODABHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5051",
+    "password": "Gnp@0051X"
+  },
+  {
+    "studentNumber": "1052",
+    "name": "HANSHRAJ",
+    "surname": "BAMNIYA",
+    "fatherName": "SARKALBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5052",
+    "password": "Gnp@0052X"
+  },
+  {
+    "studentNumber": "1053",
+    "name": "ROHITBHAI",
+    "surname": "RATHVA",
+    "fatherName": "KALIYABHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5053",
+    "password": "Gnp@0053X"
+  },
+  {
+    "studentNumber": "1054",
+    "name": "PANKASHBHAI",
+    "surname": "DAMOR",
+    "fatherName": "ARVINDBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5054",
+    "password": "Gnp@0054X"
+  },
+  {
+    "studentNumber": "1055",
+    "name": "ANKITA",
+    "surname": "CHHIPARIYA",
+    "fatherName": "AJITBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5055",
+    "password": "Gnp@0055X"
+  },
+  {
+    "studentNumber": "1056",
+    "name": "VANRAJ",
+    "surname": "GAMAR",
+    "fatherName": "RAMESHBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8056",
+    "password": "Gnp@0056X"
+  },
+  {
+    "studentNumber": "1057",
+    "name": "KAJAL",
+    "surname": "AKHADIYA",
+    "fatherName": "MANGATIYABHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8057",
+    "password": "Gnp@0057X"
+  },
+  {
+    "studentNumber": "1058",
+    "name": "TEJAL",
+    "surname": "AKHADIYA",
+    "fatherName": "MANGATIYABHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6058",
+    "password": "Gnp@0058X"
+  },
+  {
+    "studentNumber": "1059",
+    "name": "JYOTI",
+    "surname": "NAYAKA",
+    "fatherName": "SAKARBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5059",
+    "password": "Gnp@0059X"
+  },
+  {
+    "studentNumber": "1060",
+    "name": "ANITA",
+    "surname": "JAMARA",
+    "fatherName": "VIJUBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7060",
+    "password": "Gnp@0060X"
+  },
+  {
+    "studentNumber": "1061",
+    "name": "MAHESH",
+    "surname": "JAMARA",
+    "fatherName": "DINESHBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6061",
+    "password": "Gnp@0061X"
+  },
+  {
+    "studentNumber": "1062",
+    "name": "MANISHA",
+    "surname": "JAMARA",
+    "fatherName": "DINESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5062",
+    "password": "Gnp@0062X"
+  },
+  {
+    "studentNumber": "1063",
+    "name": "HARESHBHAI",
+    "surname": "PASAYA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5063",
+    "password": "Gnp@0063X"
+  },
+  {
+    "studentNumber": "1064",
+    "name": "RAHULBHAI",
+    "surname": "NAYAKA",
+    "fatherName": "KESARBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6064",
+    "password": "Gnp@0064X"
+  },
+  {
+    "studentNumber": "1065",
+    "name": "SEJAL",
+    "surname": "BHARVAD",
+    "fatherName": "RATILAL",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4065",
+    "password": "Gnp@0065X"
+  },
+  {
+    "studentNumber": "1066",
+    "name": "LAKHU",
+    "surname": "GAMARA",
+    "fatherName": "VASHRAMBHAI NAGJIBHAI GAM",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3066",
+    "password": "Gnp@0066X"
+  },
+  {
+    "studentNumber": "1067",
+    "name": "SATVIKBHAI",
+    "surname": "MAIDA",
+    "fatherName": "RAJUBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4067",
+    "password": "Gnp@0067X"
+  },
+  {
+    "studentNumber": "1068",
+    "name": "KISHN",
+    "surname": "GAMARA",
+    "fatherName": "SANJAYBHAI GAMARA",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3068",
+    "password": "Gnp@0068X"
+  },
+  {
+    "studentNumber": "1069",
+    "name": "MAYUR",
+    "surname": "GAMARA",
+    "fatherName": "DHANJIBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3069",
+    "password": "Gnp@0069X"
+  },
+  {
+    "studentNumber": "1070",
+    "name": "SONDA",
+    "surname": "GAMARA",
+    "fatherName": "BHARATBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3070",
+    "password": "Gnp@0070X"
+  },
+  {
+    "studentNumber": "1071",
+    "name": "RAVIRAJSINH",
+    "surname": "DAMOR",
+    "fatherName": "ARVINDBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4071",
+    "password": "Gnp@0071X"
+  },
+  {
+    "studentNumber": "1072",
+    "name": "RIDHDHI",
+    "surname": "GAMARA",
+    "fatherName": "PANCHABHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3072",
+    "password": "Gnp@0072X"
+  },
+  {
+    "studentNumber": "1073",
+    "name": "RAKESH",
+    "surname": "CHADAMIYA",
+    "fatherName": "RAYDHAN",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3073",
+    "password": "Gnp@0073X"
+  },
+  {
+    "studentNumber": "1074",
+    "name": "SONAL",
+    "surname": "NAYAKA",
+    "fatherName": "SHANKARBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3074",
+    "password": "Gnp@0074X"
+  },
+  {
+    "studentNumber": "1075",
+    "name": "DEEPAK",
+    "surname": "AKHADIYA",
+    "fatherName": "MANGATIYA",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3075",
+    "password": "Gnp@0075X"
+  },
+  {
+    "studentNumber": "1076",
+    "name": "HETALBEN",
+    "surname": "NAYAK",
+    "fatherName": "CHIMABHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4076",
+    "password": "Gnp@0076X"
+  },
+  {
+    "studentNumber": "1077",
+    "name": "ASMITABEN",
+    "surname": "BARIA",
+    "fatherName": "RAJUBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3077",
+    "password": "Gnp@0077X"
+  },
+  {
+    "studentNumber": "1078",
+    "name": "UMESHBHAI",
+    "surname": "RATHVA",
+    "fatherName": "PARVATBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3078",
+    "password": "Gnp@0078X"
+  },
+  {
+    "studentNumber": "1079",
+    "name": "ROSHANIBEN",
+    "surname": "GAMAR",
+    "fatherName": "KAMLESHBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4079",
+    "password": "Gnp@0079X"
+  },
+  {
+    "studentNumber": "1080",
+    "name": "JAYRAJ",
+    "surname": "BAMNIYA",
+    "fatherName": "SARKAL",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4080",
+    "password": "Gnp@0080X"
+  },
+  {
+    "studentNumber": "1081",
+    "name": "JAGRUTIBEN",
+    "surname": "CHADAMIYA",
+    "fatherName": "RAYDHANBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4081",
+    "password": "Gnp@0081X"
+  },
+  {
+    "studentNumber": "1082",
+    "name": "JAGU",
+    "surname": "CHADAMIYA",
+    "fatherName": "MUNNABHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3082",
+    "password": "Gnp@0082X"
+  },
+  {
+    "studentNumber": "1083",
+    "name": "ASHABEN",
+    "surname": "NAYKA",
+    "fatherName": "SARTANBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6083",
+    "password": "Gnp@0083X"
+  },
+  {
+    "studentNumber": "1084",
+    "name": "SHEELABEN",
+    "surname": "NAYKA",
+    "fatherName": "SARTANBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6084",
+    "password": "Gnp@0084X"
+  },
+  {
+    "studentNumber": "1085",
+    "name": "PUJABEN",
+    "surname": "NAYKA",
+    "fatherName": "KESHARBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5085",
+    "password": "Gnp@0085X"
+  },
+  {
+    "studentNumber": "1086",
+    "name": "VIJAY",
+    "surname": "WASKALE",
+    "fatherName": "METHUBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5086",
+    "password": "Gnp@0086X"
+  },
+  {
+    "studentNumber": "1087",
+    "name": "ANTARI",
+    "surname": "WASKALE",
+    "fatherName": "METHUBHAI",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5087",
+    "password": "Gnp@0087X"
+  },
+  {
+    "studentNumber": "1088",
+    "name": "BABALU",
+    "surname": "GAMAR",
+    "fatherName": "DINESHBHAI",
+    "standard": "8",
+    "section": "A",
+    "username": "STU8088",
+    "password": "Gnp@0088X"
+  },
+  {
+    "studentNumber": "1089",
+    "name": "MISHV",
+    "surname": "BHAGIYA",
+    "fatherName": "PRAKASHBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3089",
+    "password": "Gnp@0089X"
+  },
+  {
+    "studentNumber": "1090",
+    "name": "DHVNIK",
+    "surname": "BHAGIYA",
+    "fatherName": "HARESHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2090",
+    "password": "Gnp@0090X"
+  },
+  {
+    "studentNumber": "1091",
+    "name": "KHUSH",
+    "surname": "BHAGIYA",
+    "fatherName": "NARBHERAMBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2091",
+    "password": "Gnp@0091X"
+  },
+  {
+    "studentNumber": "1092",
+    "name": "ASHIS",
+    "surname": "CHHIPARIYA",
+    "fatherName": "ASHOKBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2092",
+    "password": "Gnp@0092X"
+  },
+  {
+    "studentNumber": "1093",
+    "name": "NAVGHAN",
+    "surname": "CHHIPARIYA",
+    "fatherName": "AJITBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2093",
+    "password": "Gnp@0093X"
+  },
+  {
+    "studentNumber": "1094",
+    "name": "HIRAN",
+    "surname": "GAMARA",
+    "fatherName": "MASHRUBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2094",
+    "password": "Gnp@0094X"
+  },
+  {
+    "studentNumber": "1095",
+    "name": "GOPAL",
+    "surname": "ZAPDA",
+    "fatherName": "SAGARBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2095",
+    "password": "Gnp@0095X"
+  },
+  {
+    "studentNumber": "1096",
+    "name": "MAHI",
+    "surname": "DABHI",
+    "fatherName": "BHARATBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2096",
+    "password": "Gnp@0096X"
+  },
+  {
+    "studentNumber": "1097",
+    "name": "BHUMIKA",
+    "surname": "VARANIYA",
+    "fatherName": "MANOJBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2097",
+    "password": "Gnp@0097X"
+  },
+  {
+    "studentNumber": "1098",
+    "name": "GOPI",
+    "surname": "DABHI",
+    "fatherName": "MANSUKHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2098",
+    "password": "Gnp@0098X"
+  },
+  {
+    "studentNumber": "1099",
+    "name": "CHANDRIKA",
+    "surname": "GAMARA",
+    "fatherName": "KHENGARBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2099",
+    "password": "Gnp@0099X"
+  },
+  {
+    "studentNumber": "1100",
+    "name": "DIPALI",
+    "surname": "GAMARA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2100",
+    "password": "Gnp@0100X"
+  },
+  {
+    "studentNumber": "1101",
+    "name": "SONAL",
+    "surname": "GAMARA",
+    "fatherName": "KHOLABHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2101",
+    "password": "Gnp@0101X"
+  },
+  {
+    "studentNumber": "1102",
+    "name": "TEJAL",
+    "surname": "ZAPDA",
+    "fatherName": "RATILAL",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2102",
+    "password": "Gnp@0102X"
+  },
+  {
+    "studentNumber": "1103",
+    "name": "PRIYANKABEN",
+    "surname": "HATHILA",
+    "fatherName": "VINUBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3103",
+    "password": "Gnp@0103X"
+  },
+  {
+    "studentNumber": "1104",
+    "name": "ANJU",
+    "surname": "MANDLOI",
+    "fatherName": "BHERU",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3104",
+    "password": "Gnp@0104X"
+  },
+  {
+    "studentNumber": "1105",
+    "name": "VIJAY",
+    "surname": "MANDLOI",
+    "fatherName": "BHERU",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2105",
+    "password": "Gnp@0105X"
+  },
+  {
+    "studentNumber": "1106",
+    "name": "SURESHBHAI",
+    "surname": "VAKHALA",
+    "fatherName": "VINESHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2106",
+    "password": "Gnp@0106X"
+  },
+  {
+    "studentNumber": "1107",
+    "name": "VIRAM",
+    "surname": "SANAMIYA",
+    "fatherName": "MANSUKHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2107",
+    "password": "Gnp@0107X"
+  },
+  {
+    "studentNumber": "1108",
+    "name": "VANRAJSINGH",
+    "surname": "VAKHDA",
+    "fatherName": "MANUBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3108",
+    "password": "Gnp@0108X"
+  },
+  {
+    "studentNumber": "1109",
+    "name": "JAYESH",
+    "surname": "NAYKA",
+    "fatherName": "ARVINDBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4109",
+    "password": "Gnp@0109X"
+  },
+  {
+    "studentNumber": "1110",
+    "name": "PAPUL",
+    "surname": "NAYKA",
+    "fatherName": "ARVINDBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4110",
+    "password": "Gnp@0110X"
+  },
+  {
+    "studentNumber": "1111",
+    "name": "GODAVARI",
+    "surname": "SANAMIYA",
+    "fatherName": "KARSHANBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2111",
+    "password": "Gnp@0111X"
+  },
+  {
+    "studentNumber": "1112",
+    "name": "TEJASBHAI",
+    "surname": "KISHORI",
+    "fatherName": "MUKESHBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2112",
+    "password": "Gnp@0112X"
+  },
+  {
+    "studentNumber": "1113",
+    "name": "pankaj",
+    "surname": "vaskela",
+    "fatherName": "rajubhai",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4113",
+    "password": "Gnp@0113X"
+  },
+  {
+    "studentNumber": "1114",
+    "name": "roopali",
+    "surname": "vaskela",
+    "fatherName": "rajubhai",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5114",
+    "password": "Gnp@0114X"
+  },
+  {
+    "studentNumber": "1115",
+    "name": "AARYAN",
+    "surname": "MAUDA",
+    "fatherName": "KIRITBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2115",
+    "password": "Gnp@0115X"
+  },
+  {
+    "studentNumber": "1116",
+    "name": "BADAL",
+    "surname": "AKHADIYA",
+    "fatherName": "MANGATIYABHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2116",
+    "password": "Gnp@0116X"
+  },
+  {
+    "studentNumber": "1117",
+    "name": "SANJANA",
+    "surname": "GADARIYA",
+    "fatherName": "RAJUBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2117",
+    "password": "Gnp@0117X"
+  },
+  {
+    "studentNumber": "1118",
+    "name": "ROHIT",
+    "surname": "BHILALA",
+    "fatherName": "PARAMDAS",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5118",
+    "password": "Gnp@0118X"
+  },
+  {
+    "studentNumber": "1119",
+    "name": "JIYANSHI",
+    "surname": "BHAGIYA",
+    "fatherName": "JAGDISHBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1119",
+    "password": "Gnp@0119X"
+  },
+  {
+    "studentNumber": "1120",
+    "name": "MAHI",
+    "surname": "GAMARA",
+    "fatherName": "BHARATBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1120",
+    "password": "Gnp@0120X"
+  },
+  {
+    "studentNumber": "1121",
+    "name": "SHREYA",
+    "surname": "CHHIPARIYA",
+    "fatherName": "BHUPATBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1121",
+    "password": "Gnp@0121X"
+  },
+  {
+    "studentNumber": "1122",
+    "name": "KARTIK",
+    "surname": "BAMNIYA",
+    "fatherName": "SARKALBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1122",
+    "password": "Gnp@0122X"
+  },
+  {
+    "studentNumber": "1123",
+    "name": "SATYAM",
+    "surname": "DAMOR",
+    "fatherName": "CHIRAGBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1123",
+    "password": "Gnp@0123X"
+  },
+  {
+    "studentNumber": "1124",
+    "name": "TEJAL",
+    "surname": "GAMARA",
+    "fatherName": "BHARATBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1124",
+    "password": "Gnp@0124X"
+  },
+  {
+    "studentNumber": "1125",
+    "name": "DIKSH",
+    "surname": "BHAGIYA",
+    "fatherName": "DEVRAJBHAI",
+    "standard": "7",
+    "section": "A",
+    "username": "STU7125",
+    "password": "Gnp@0125X"
+  },
+  {
+    "studentNumber": "1126",
+    "name": "HARDIK",
+    "surname": "MAIDA",
+    "fatherName": "RAJUBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1126",
+    "password": "Gnp@0126X"
+  },
+  {
+    "studentNumber": "1127",
+    "name": "VIRAJ",
+    "surname": "RATHAVA",
+    "fatherName": "RANCHHODBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1127",
+    "password": "Gnp@0127X"
+  },
+  {
+    "studentNumber": "1128",
+    "name": "AKSHAYKUMAR",
+    "surname": "NAYKA",
+    "fatherName": "MAHESHBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1128",
+    "password": "Gnp@0128X"
+  },
+  {
+    "studentNumber": "1129",
+    "name": "RAYDIPBHAI",
+    "surname": "VAKHLA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1129",
+    "password": "Gnp@0129X"
+  },
+  {
+    "studentNumber": "1130",
+    "name": "JALAK",
+    "surname": "KISHORI",
+    "fatherName": "MUKESHBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1130",
+    "password": "Gnp@0130X"
+  },
+  {
+    "studentNumber": "1131",
+    "name": "SANI",
+    "surname": "MAVDA",
+    "fatherName": "RAJUBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2131",
+    "password": "Gnp@0131X"
+  },
+  {
+    "studentNumber": "1132",
+    "name": "VANRAJ",
+    "surname": "DAMOR",
+    "fatherName": "ISAMAL",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2132",
+    "password": "Gnp@0132X"
+  },
+  {
+    "studentNumber": "1133",
+    "name": "NIRALIBEN",
+    "surname": "NAYKA",
+    "fatherName": "CHIMABHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2133",
+    "password": "Gnp@0133X"
+  },
+  {
+    "studentNumber": "1134",
+    "name": "RAJESHVARI",
+    "surname": "RATHAVA",
+    "fatherName": "RANACHHODBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2134",
+    "password": "Gnp@0134X"
+  },
+  {
+    "studentNumber": "1135",
+    "name": "VAISHALIBEN",
+    "surname": "NAYKA",
+    "fatherName": "SHANKARBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2135",
+    "password": "Gnp@0135X"
+  },
+  {
+    "studentNumber": "1136",
+    "name": "ANNU",
+    "surname": "BHINDE",
+    "fatherName": "PARSINGH",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2136",
+    "password": "Gnp@0136X"
+  },
+  {
+    "studentNumber": "1137",
+    "name": "VISHALBHAI",
+    "surname": "BARIYA",
+    "fatherName": "RAJUBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1137",
+    "password": "Gnp@0137X"
+  },
+  {
+    "studentNumber": "1138",
+    "name": "KRISHNA",
+    "surname": "MAVI",
+    "fatherName": "VISHALBHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2138",
+    "password": "Gnp@0138X"
+  },
+  {
+    "studentNumber": "1139",
+    "name": "ARUNA",
+    "surname": "MAIDA",
+    "fatherName": "GEMABHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4139",
+    "password": "Gnp@0139X"
+  },
+  {
+    "studentNumber": "1140",
+    "name": "KETUL",
+    "surname": "NAYAKA",
+    "fatherName": "KESARBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3140",
+    "password": "Gnp@0140X"
+  },
+  {
+    "studentNumber": "1141",
+    "name": "RAVIKUMAR",
+    "surname": "NAYAKA",
+    "fatherName": "MAHESHBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3141",
+    "password": "Gnp@0141X"
+  },
+  {
+    "studentNumber": "1142",
+    "name": "ARUN",
+    "surname": "DAVAR",
+    "fatherName": "SUBHANBHAI",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6142",
+    "password": "Gnp@0142X"
+  },
+  {
+    "studentNumber": "1143",
+    "name": "ILINABEN",
+    "surname": "DAMOR",
+    "fatherName": "ARAVINDBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1143",
+    "password": "Gnp@0143X"
+  },
+  {
+    "studentNumber": "1144",
+    "name": "HIRAL",
+    "surname": "DAMOR",
+    "fatherName": "ISMAAL",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3144",
+    "password": "Gnp@0144X"
+  },
+  {
+    "studentNumber": "1145",
+    "name": "SHARMABEN",
+    "surname": "BARIA",
+    "fatherName": "RAJUBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3145",
+    "password": "Gnp@0145X"
+  },
+  {
+    "studentNumber": "1146",
+    "name": "PRAVIN",
+    "surname": "CHADMIYA",
+    "fatherName": "VINODBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4146",
+    "password": "Gnp@0146X"
+  },
+  {
+    "studentNumber": "1147",
+    "name": "TEJAL",
+    "surname": "VASKELA",
+    "fatherName": "RAMESHBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4147",
+    "password": "Gnp@0147X"
+  },
+  {
+    "studentNumber": "1148",
+    "name": "AREN",
+    "surname": "MAVDA",
+    "fatherName": "RAJU",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5148",
+    "password": "Gnp@0148X"
+  },
+  {
+    "studentNumber": "1149",
+    "name": "ARIYANT",
+    "surname": "MAVDA",
+    "fatherName": "RAJU",
+    "standard": "5",
+    "section": "A",
+    "username": "STU5149",
+    "password": "Gnp@0149X"
+  },
+  {
+    "studentNumber": "1150",
+    "name": "RAHUL",
+    "surname": "BARIYA",
+    "fatherName": "RAJUBHAI",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4150",
+    "password": "Gnp@0150X"
+  },
+  {
+    "studentNumber": "1151",
+    "name": "NAVINBHAI",
+    "surname": "DHANAK",
+    "fatherName": "LALSINGBHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3151",
+    "password": "Gnp@0151X"
+  },
+  {
+    "studentNumber": "1152",
+    "name": "PRIYANKA",
+    "surname": "MAWDA",
+    "fatherName": "THANSINH",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4152",
+    "password": "Gnp@0152X"
+  },
+  {
+    "studentNumber": "1153",
+    "name": "BALI",
+    "surname": "MAWDA",
+    "fatherName": "TANSINGH",
+    "standard": "6",
+    "section": "A",
+    "username": "STU6153",
+    "password": "Gnp@0153X"
+  },
+  {
+    "studentNumber": "1154",
+    "name": "MAHESHBHAI",
+    "surname": "DABHI",
+    "fatherName": "RAMESHBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103154",
+    "password": "Gnp@0154X"
+  },
+  {
+    "studentNumber": "1155",
+    "name": "RIYA",
+    "surname": "CHHIPARIYA",
+    "fatherName": "MAHESH",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103155",
+    "password": "Gnp@0155X"
+  },
+  {
+    "studentNumber": "1156",
+    "name": "SURESH",
+    "surname": "RATHOD",
+    "fatherName": "ARAVIND",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103156",
+    "password": "Gnp@0156X"
+  },
+  {
+    "studentNumber": "1157",
+    "name": "VIRAJ",
+    "surname": "GAMARA",
+    "fatherName": "KHODABHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103157",
+    "password": "Gnp@0157X"
+  },
+  {
+    "studentNumber": "1158",
+    "name": "SONAL",
+    "surname": "DHANDHUKIYA",
+    "fatherName": "BHALABHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103158",
+    "password": "Gnp@0158X"
+  },
+  {
+    "studentNumber": "1159",
+    "name": "RUHEE",
+    "surname": "GAMARA",
+    "fatherName": "KANJIBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103159",
+    "password": "Gnp@0159X"
+  },
+  {
+    "studentNumber": "1160",
+    "name": "LAKHMAN",
+    "surname": "GAMARA",
+    "fatherName": "KHENGARBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103160",
+    "password": "Gnp@0160X"
+  },
+  {
+    "studentNumber": "1161",
+    "name": "KANCHAN",
+    "surname": "SADMIYA",
+    "fatherName": "CHHAGANBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103161",
+    "password": "Gnp@0161X"
+  },
+  {
+    "studentNumber": "1162",
+    "name": "VIDHYABEN",
+    "surname": "NAYAKA",
+    "fatherName": "CHIMABHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103162",
+    "password": "Gnp@0162X"
+  },
+  {
+    "studentNumber": "1163",
+    "name": "RAJAN",
+    "surname": "DAMOR",
+    "fatherName": "ESMAL",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103163",
+    "password": "Gnp@0163X"
+  },
+  {
+    "studentNumber": "1164",
+    "name": "PAWAN",
+    "surname": "BANDOD",
+    "fatherName": "MUNIYA",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103164",
+    "password": "Gnp@0164X"
+  },
+  {
+    "studentNumber": "1165",
+    "name": "PUJABEN",
+    "surname": "NAYKA",
+    "fatherName": "KALUBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103165",
+    "password": "Gnp@0165X"
+  },
+  {
+    "studentNumber": "1166",
+    "name": "MEHUL",
+    "surname": "KIKRIYA",
+    "fatherName": "RAJPAL",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1166",
+    "password": "Gnp@0166X"
+  },
+  {
+    "studentNumber": "1167",
+    "name": "RAHUL",
+    "surname": "CHADMIYA",
+    "fatherName": "RAYDHANBHAI",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103167",
+    "password": "Gnp@0167X"
+  },
+  {
+    "studentNumber": "1168",
+    "name": "CHHAYABEN",
+    "surname": "NAYAKA",
+    "fatherName": "NAYAK KALUBHAI KHIMABHAI",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3168",
+    "password": "Gnp@0168X"
+  },
+  {
+    "studentNumber": "1169",
+    "name": "KINJAL",
+    "surname": "MAVI",
+    "fatherName": "VISHALBHAI",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1169",
+    "password": "Gnp@0169X"
+  },
+  {
+    "studentNumber": "1170",
+    "name": "MOHIT",
+    "surname": "MEHDA",
+    "fatherName": "DILIP",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1170",
+    "password": "Gnp@0170X"
+  },
+  {
+    "studentNumber": "1171",
+    "name": "KAVITA",
+    "surname": "VASKALE",
+    "fatherName": "METHU",
+    "standard": "103",
+    "section": "A",
+    "username": "STU103171",
+    "password": "Gnp@0171X"
+  },
+  {
+    "studentNumber": "1172",
+    "name": "KARTIK",
+    "surname": "NAYKA",
+    "fatherName": "BABLABHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2172",
+    "password": "Gnp@0172X"
+  },
+  {
+    "studentNumber": "1173",
+    "name": "ISHRAM",
+    "surname": "KIKRIYA",
+    "fatherName": "RAJPAL",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3173",
+    "password": "Gnp@0173X"
+  },
+  {
+    "studentNumber": "1174",
+    "name": "VIKRAM",
+    "surname": "VASKALE",
+    "fatherName": "METHU",
+    "standard": "3",
+    "section": "A",
+    "username": "STU3174",
+    "password": "Gnp@0174X"
+  },
+  {
+    "studentNumber": "1175",
+    "name": "AJIT",
+    "surname": "MEHDA",
+    "fatherName": "THAKARIYA",
+    "standard": "4",
+    "section": "A",
+    "username": "STU4175",
+    "password": "Gnp@0175X"
+  },
+  {
+    "studentNumber": "1176",
+    "name": "JIGNESH",
+    "surname": "KIKARIYA",
+    "fatherName": "KUTIYA",
+    "standard": "1",
+    "section": "A",
+    "username": "STU1176",
+    "password": "Gnp@0176X"
+  },
+  {
+    "studentNumber": "1177",
+    "name": "HANSABEN",
+    "surname": "BHURIYA",
+    "fatherName": "DHULABHAI",
+    "standard": "2",
+    "section": "A",
+    "username": "STU2177",
+    "password": "Gnp@0177X"
+  }
+]
